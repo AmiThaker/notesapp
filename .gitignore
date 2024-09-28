@@ -1,0 +1,62 @@
+# Ignore Maven/Gradle build directories
+target/
+build/
+
+# Ignore Eclipse/IntelliJ project files
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+*.ipr
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+hs_err_pid*
+
+# Ignore dependency directories
+/.mvn/wrapper/maven-wrapper.jar
+!/.mvn/wrapper/maven-wrapper.properties
+/.gradle/
+/node_modules/
+
+# Ignore compiled Java class files
+*.class
+
+# Ignore JAR, WAR, EAR files
+*.jar
+*.war
+*.ear
+
+# Ignore package lock files
+package-lock.json
+yarn.lock
+
+# Ignore application configuration and environment files
+.env
+*.env
+**/application*.properties
+**/application*.yml
+**/application*.yaml
+
+# Ignore sensitive files (like keys)
+*.key
+*.pem
+
+# Ignore coverage reports
+/coverage/
+*.lcov
+
+# Ignore test reports
+/test-output/
+*.xml
+*.html
+
+# Ignore IntelliJ code style and inspection files
+/.idea/codeStyles
+/.idea/inspectionProfiles
